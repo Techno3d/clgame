@@ -35,6 +35,9 @@ fn main() {
                 println!("No file was given, using the default level");
             }
         }
+    } else if args.contains(&"-h".to_string()) {
+        println!("-h to show help message\n-d to load in level file\n\nHave fun");
+        process::exit(0);
     }
     
     loop {
