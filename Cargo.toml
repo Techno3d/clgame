@@ -1,0 +1,12 @@
+[package]
+name = "clgame"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+term_size = "0.3.2"
+termion = "1.5.6"
+serde = { version = "1.0.136", features = ["derive"] }
+serde_json = "1.0.79"
